@@ -20,9 +20,6 @@ const slice = createSlice({
   },
 });
 
-const teste = 'teste'
-console.log(teste, 'teste')
-
 export const { changeFilters } = slice.actions
 
 export default slice.reducer;
